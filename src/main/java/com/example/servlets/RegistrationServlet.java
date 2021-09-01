@@ -2,6 +2,7 @@ package com.example.servlets;
 
 import com.example.dao.UserDAO;
 import com.example.entity.User;
+import com.mysql.cj.Session;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
